@@ -256,4 +256,32 @@ main li{
 
 
 }
+.fluter{
+    background-image: url(../img/fluter.png);
 
+
+}
+
+.fluter {
+    background-image: url(../img/fluter.png);
+    height: calc(400px);
+    color: var(--branco);
+    font-family: var(--font2);
+    display: flex;
+    align-items: center;
+}
+.fluter_conteudo {
+    background: linear-gradient(114.61deg, rgba(255, 255, 255, 0.052) 1.08%, rgba(255, 255, 255, 0.117) 99.26%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
